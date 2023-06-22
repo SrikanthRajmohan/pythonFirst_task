@@ -15,7 +15,7 @@ class choice(models.Model):
     votes = models.IntegerField(default=0)
 
 
-
+# ghfhsgshdsgdsjhgj
 class Question(models.Model):
     def __str__(self):
         return self.question_text
